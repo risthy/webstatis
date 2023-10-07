@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 50%;
+    image-resolution: 100%;
+    margin-left: 25%;
+}
+body {
+   /*background-color: antiquewhite; */
+   background-image: url(images/beach.jpg);
+}
+h1 {
+    color: rgb(109, 64, 19);
+    text-align: center;
+    margin: 40px 30px;
+}
+h2 {
+    color: rgb(107, 63, 20);
+    text-align: center;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(189, 102, 15);
+}
+p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    margin: 30px auto;
+    padding: 20px;
+    width: 900px;
+}
+d1 {
+    font-size: 25px;
+    line-height: 30px;
+}
+dt {
+    font-size: 20px;
+    background-color: rgb(172, 163, 82);
+    margin-top: 30px;
+    padding: 5px;
+}
+dd {
+    background-color: khaki;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-indent: 40px;
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+a {
+    color: rgb(52, 57, 27);
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 30px;
+    padding: 20px;
+}
+.koleksi {
+    width: 900px;
+    margin: 30px auto;
+}
+d1 img {
+    background-color: beige;
+    width: 200px;
+    /*border-bottom-left-radius: 50px;*/
+    border-radius: 100px;
+    float: left;
+    /*margin-top: 10px;
+    margin-right: 20px;*/
+    margin: 10px 20px 10px 0px;
+    padding: 10px;
+}
+.Ruang {
+    width: 900px;
+    margin: 30px auto;
+}
+.clear {
+    clear: left;
+}
+.footer {
+    margin-left: 100px;
+    text-align: center;
+}
